@@ -1,0 +1,60 @@
+h1, h3, h4 {
+    text-align: center;
+    color: antiquewhite;
+}
+td {
+    height: 100px;
+    width: 100px;
+}
+td img {
+    height: 100px;
+    max-width: 100px;
+    cursor: pointer;
+}
+
+p img {
+    height: 100px;
+}
+
+#cauldron {
+    display: inline-block;
+    margin-right: 5px;
+}
+#cauldron img {
+    height: 200px;
+}
+#done {
+    height: 70px;
+    display: inline-block;
+}
+
+.level {
+    border-radius: 12px;
+    background-color: #3d2e1ba2;
+    border: 2px solid #00000070;
+    font-size: 16px;
+    color: white;
+    padding: 15px 30px;
+}
+.level:hover {
+    background-color: #2c210f;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.wrapper {
+    text-align: center;
+}
+#skelegro {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+#skelegro img {
+    height: 100px;
+}
+
+#draginstructs {
+    font-size: 16px;
+    font-family: 'Lucida Grande';
+    color: rgb(254, 255, 213);
+    text-align: center;
+}

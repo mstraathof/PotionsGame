@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+ 	<head>
+	 	<title>Skele-Gro</title>
+	 	<meta charset="utf-8">
+	 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+	 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+         <script src="cauldronscript.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         <link rel="stylesheet" href="style.css">
+ 	</head>
+
+ 	<body background="images/stonewall.png">
+ 		<div id="container">
+             <p id="draginstructs">Drag the ingredients to the cauldron</p>
+        <table>
+            <tr>
+                <td id="beetles"><img src="images/beetles.png"></td>
+                <td id="wormwood"><img src="images/wormwood.png"></td>
+                <td id="beanjuice"><img src="images/beanjuice.png"></td>
+                <td id="cabbage"><img src="images/cabbage.png"></td>
+            </tr>
+            <tr>
+                <td id="eeleyes"><img src="images/eeleyes.png"></td>
+                <td id="slothbrain"><img src="images/slothbrain.png"></td>
+                <td id="boomslang"><img src="images/boomslang.png"></td>
+                <td id="fluxweed"><img src="images/fluxweed.png"></td>
+            </tr>
+            <tr>
+                <td id="knotgrass"><img src="images/knotgrass.png"></td>
+                <td id="lacewing"><img src="images/lacewing.png"></td>
+                <td id="hair"><img src="images/hair.png"></td>
+            </tr>
+            <tr>
+                <td id="bicorn"><img src="images/bicorn.png"></td>
+                <td id="pufferfisheyes"><img src="images/pufferfisheyes.png"></td>
+                <td id="leech"><img src="images/leech.png"></td>
+
+            </tr>
+        </table>
+            <div id="cauldron">
+                <img src="images/cauldron.gif">
+            </div>
+            <img src="images/done.png" id="done">
+
+            <!-- Winner modal-->
+            <div id="winner" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img src="images/snapeapproves.gif">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" onclick="location.href='home.html';" data-dismiss="modal">Done</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Loser modal -->
+	 		<div id="loser" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img src="images/snapenotimpressed.gif">
+                            <div id="wrongscore"></div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" onclick="location.href='home.html';" data-dismiss="modal">Clean up and finish</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ 		</div>
+	
+ 	</body>
+</html>
